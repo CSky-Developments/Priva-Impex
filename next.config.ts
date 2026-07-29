@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   // directory otherwise gets inferred as the project root.
   turbopack: { root: __dirname },
   allowedDevOrigins: ['192.168.11.29'],
+  output: "standalone",
 };
 
 export default nextConfig;
