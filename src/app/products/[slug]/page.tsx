@@ -105,6 +105,17 @@ export default async function CategoryPage({ params }: Params) {
                   </Chip>
                 ))}
               </div>
+
+              <div
+                className="anim-rise mt-12"
+                style={{ animationDelay: "300ms" }}
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop"
+                  alt={`${category.name} in Production`}
+                  className="w-full h-72 object-cover border border-graphite-800 opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"
+                />
+              </div>
             </div>
 
             {/* At-a-glance panel */}

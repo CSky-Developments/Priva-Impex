@@ -268,6 +268,13 @@ export default function HomePage() {
                     Full Service Detail
                   </Button>
                 </Reveal>
+                <Reveal delay={180} className="mt-12 hidden lg:block">
+                  <img
+                    src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1200&auto=format&fit=crop"
+                    alt="Warehouse and Quality Check"
+                    className="aspect-square w-full object-cover border border-graphite-800 opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"
+                  />
+                </Reveal>
               </div>
             </div>
 
@@ -436,6 +443,13 @@ export default function HomePage() {
                 <Button href="/global-reach" variant="ghost">
                   Lane Detail
                 </Button>
+              </Reveal>
+              <Reveal delay={180} className="mt-12 hidden lg:block">
+                <img
+                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop"
+                  alt="Shipping Containers"
+                  className="aspect-[4/3] w-full object-cover border border-graphite-800 opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"
+                />
               </Reveal>
             </div>
 

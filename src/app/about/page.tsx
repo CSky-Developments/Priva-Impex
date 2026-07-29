@@ -113,7 +113,15 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <Reveal delay={120} className="mt-10 flex flex-wrap gap-2.5">
+              <Reveal delay={120} className="mt-10">
+                <img
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop"
+                  alt="Factory Quality Assurance"
+                  className="w-full h-[22rem] object-cover border border-graphite-800 opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"
+                />
+              </Reveal>
+
+              <Reveal delay={160} className="mt-10 flex flex-wrap gap-2.5">
                 {[
                   "Supplier Auditing",
                   "Specification Control",

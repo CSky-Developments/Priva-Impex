@@ -121,6 +121,13 @@ export default function ProductsPage() {
                 }
                 lead="The catalogue reflects what we move most often, not the limit of what we can find. If it is hardware and it is manufactured in India, we can usually get to it through our supplier network."
               />
+              <Reveal delay={140} className="mt-12">
+                <img
+                  src="https://images.unsplash.com/photo-1532054942971-ce4fb26b1c4e?q=80&w=1200&auto=format&fit=crop"
+                  alt="Custom Sourcing and Development"
+                  className="w-full h-80 object-cover border border-graphite-800 opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-700"
+                />
+              </Reveal>
             </div>
 
             <div className="space-y-px bg-graphite-800">
